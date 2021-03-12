@@ -1,0 +1,41 @@
+version: '2'
+services:
+  php:
+    image: yiisoftware/yii2-php:7.4-apache
+    volumes:
+      - ~/.composer-docker/cache:/root/.composer/cache:delegated
+      - ./:/app:delegated
+    ports:
+      - '8000:80'
+    depends_on:
+      - pgsql
+    networks:
+      - postgres-compose-network
+
+  pgsql:
+    restart: always
+    image: postgres:9.5
+    ports:
+    - 5432:5432
+    environment:
+      - POSTGRES_DB=yii2blog
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    networks:
+      - postgres-compose-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "mmazoni.andrade@gmail.com"
+      PGADMIN_DEFAULT_PASSWORD: "Admin2021!"
+    ports:
+      - "16543:80"
+    depends_on:
+      - pgsql
+    networks:
+      - postgres-compose-network
+
+networks:
+  postgres-compose-network:
+    driver: bridge

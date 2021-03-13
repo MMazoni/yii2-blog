@@ -816,12 +816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "e9494e97ac96c523ea4907e3374ba5a106ea57f0"
+                "reference": "c4a08932fad22d178ea0a50e0960018bd09a0557"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/e9494e97ac96c523ea4907e3374ba5a106ea57f0",
-                "reference": "e9494e97ac96c523ea4907e3374ba5a106ea57f0",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/c4a08932fad22d178ea0a50e0960018bd09a0557",
+                "reference": "c4a08932fad22d178ea0a50e0960018bd09a0557",
                 "shasum": ""
             },
             "require": {
@@ -922,7 +922,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-10T21:40:34+00:00"
+            "time": "2021-03-12T21:05:49+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -2653,12 +2653,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "4ac7d0b65f2c96e6dc6d11fd34a8c40c7261f7c8"
+                "reference": "cfb977a1f25876e4a9cddfc95c97808add9b87e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/4ac7d0b65f2c96e6dc6d11fd34a8c40c7261f7c8",
-                "reference": "4ac7d0b65f2c96e6dc6d11fd34a8c40c7261f7c8",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cfb977a1f25876e4a9cddfc95c97808add9b87e8",
+                "reference": "cfb977a1f25876e4a9cddfc95c97808add9b87e8",
                 "shasum": ""
             },
             "require": {
@@ -2738,7 +2738,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-10T06:18:00+00:00"
+            "time": "2021-03-12T06:35:11+00:00"
         },
         {
             "name": "psr/container",
@@ -3667,12 +3667,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "1501706fe08329640a974fe4b50b4f4cd82e221a"
+                "reference": "e8bee16c337d9553fb737adf79d6aabe330fd982"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/1501706fe08329640a974fe4b50b4f4cd82e221a",
-                "reference": "1501706fe08329640a974fe4b50b4f4cd82e221a",
+                "url": "https://api.github.com/repos/symfony/console/zipball/e8bee16c337d9553fb737adf79d6aabe330fd982",
+                "reference": "e8bee16c337d9553fb737adf79d6aabe330fd982",
                 "shasum": ""
             },
             "require": {
@@ -3753,7 +3753,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-12T00:42:40+00:00"
+            "time": "2021-03-12T08:40:58+00:00"
         },
         {
             "name": "symfony/css-selector",

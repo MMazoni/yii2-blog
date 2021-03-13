@@ -7,6 +7,7 @@ services:
       - ./:/app:delegated
     ports:
       - '8000:80'
+    user: ${CURRENT_UID}
     depends_on:
       - pgsql
     networks:
